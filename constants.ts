@@ -2,7 +2,7 @@ import { HouseModel, TeamMember } from './types';
 
 export const COMPANY_PHONE = "3835400199";
 export const COMPANY_LOCATION = "Catamarca Capital, Argentina";
-export const COMPANY_EMAIL = "agostina.milesi@fadmyl.com";
+export const COMPANY_EMAIL = "agostina@fadmyl.com";
 export const SOCIAL_INSTAGRAM = "https://www.instagram.com/fadmyl79";
 export const SOCIAL_FACEBOOK = "https://www.facebook.com/FadmylHolding";
 
