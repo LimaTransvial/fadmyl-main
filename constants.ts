@@ -3,7 +3,7 @@ import { HouseModel, TeamMember } from './types';
 export const COMPANY_PHONE = "3835400199";
 export const COMPANY_LOCATION = "Catamarca Capital, Argentina";
 export const COMPANY_EMAIL = "agostina.milesi@fadmyl.com";
-export const SOCIAL_INSTAGRAM = "https://www.instagram.com/fadmyl79";
+export const SOCIAL_INSTAGRAM = "https://www.instagram.com/fadmylimportandexport/";
 export const SOCIAL_FACEBOOK = "https://www.facebook.com/FadmylHolding";
 
 export const TEAM: TeamMember[] = [
@@ -22,7 +22,7 @@ export const TEAM: TeamMember[] = [
 export const MODELS: HouseModel[] = [
   {
     id: "expandible",
-    name: "Modelo Contenedor Expandible",
+    name: "Modelo contenedor expandible",
     category: "Industrial",
     description: "Módulos reubicables ideales para campamentos, minería, agricultura u oficinas técnicas. Estructuras cómodas, aisladas y listas para habitar.",
     size: "Expandible",
@@ -37,7 +37,7 @@ export const MODELS: HouseModel[] = [
   },
   {
     id: "plegable",
-    name: "Modelo Tipo Plegable",
+    name: "Modelo tipo plegable",
     category: "Industrial",
     description: "Diseño limpio y eficiencia total. Estructura inteligente que permite un montaje veloz y reducción de costos logísticos.",
     size: "14 m²",
@@ -52,7 +52,7 @@ export const MODELS: HouseModel[] = [
   },
   {
     id: "dormis",
-    name: "Dormis y Complejos",
+    name: "Dormis y complejos",
     category: "Industrial",
     description: "Estructuras expandibles y reubicables, diseñadas para campamentos mineros o programas de vivienda rápida. Hasta 3 pisos apilables.",
     size: "Modular Apilable",
@@ -67,7 +67,7 @@ export const MODELS: HouseModel[] = [
   },
   {
     id: "cabañas",
-    name: "Modelo Tipo Cabaña",
+    name: "Modelo tipo cabaña",
     category: "Residencial",
     description: "Diseño moderno con terminaciones premium. Una solución habitacional elegante y luminosa.",
     size: "12.5 m² y 25 m²",
@@ -81,7 +81,7 @@ export const MODELS: HouseModel[] = [
   },
   {
     id: "capsula",
-    name: "Modelo Tipo Cápsula",
+    name: "Modelo tipo cápsula",
     category: "Turismo",
     description: "Vivienda móvil de lujo con diseño futurista. Ideal para glamping, turismo de alta gama o vivienda ejecutiva.",
     size: "28 m² y 38 m²",
@@ -95,7 +95,7 @@ export const MODELS: HouseModel[] = [
   },
   {
     id: "domo",
-    name: "Domos Premium",
+    name: "Domos premium",
     category: "Turismo",
     description: "Turismo premium en contacto directo con la naturaleza. Duerma bajo las estrellas con servicios tipo hotel.",
     size: "13.6 m² y 28 m²",
@@ -109,23 +109,41 @@ export const MODELS: HouseModel[] = [
   }
 ];
 
+export const OFFICES = [
+  {
+    country: "Uruguay",
+    address: "Veinticinco de Mayo 713",
+    city: "Montevideo, Uruguay"
+  },
+  {
+    country: "Argentina",
+    address: "Antonio José de Sucre 1530",
+    city: "CABA, Argentina"
+  },
+  {
+    country: "China",
+    address: "Nanhai Avenue, Taohua Garden Community, Fugao Subdistrict, Nanshan District",
+    city: "Shenzhen, China"
+  }
+];
+
 export const WAREHOUSE_CONTENT = {
-  title: "Portafolio de Galpones Industriales",
+  title: "Portafolio de galpones industriales",
   subtitle: "Construimos soluciones que mueven el futuro.",
   description: "FADMYL desarrolla y suministra productos que transforman la industria y mejoran la infraestructura. Medidas, forma y uso: vos decidís, nosotros lo hacemos realidad.",
   commitments: [
     {
-      title: "Ingeniería y Resistencia",
+      title: "Ingeniería y resistencia",
       description: "Ingeniería certificada y materiales de alta resistencia garantizan durabilidad y seguridad en cada galpón.",
       icon: "engineering"
     },
     {
-      title: "Montaje Rápido y Seguro",
+      title: "Montaje rápido y seguro",
       description: "Un proceso de montaje eficiente, seguro y adaptable a las características específicas de cualquier entorno.",
       icon: "assembly"
     },
     {
-      title: "Cobertura Nacional",
+      title: "Cobertura nacional",
       description: "Fabricamos con precisión en origen y enviamos a todo el país, llevando nuestras soluciones donde las necesites.",
       icon: "truck"
     }
@@ -137,37 +155,37 @@ export const WAREHOUSE_CONTENT = {
       highlight: false
     },
     {
-      title: "Apta para Paneles Solares",
+      title: "Apta para paneles solares",
       description: "Estructura reforzada preparada para instalación futura de sistemas fotovoltaicos.",
       highlight: true
     },
     {
-      title: "Con Paneles Solares",
+      title: "Con paneles solares",
       description: "Sistema de energía solar llave en mano con paneles, inversores y almacenamiento instalados y operativos.",
       highlight: true
     }
   ],
   wallTypes: [
     {
-      title: "Sin Paredes",
+      title: "Sin paredes",
       description: "Estructura abierta para maquinaria o zonas de carga. Máxima ventilación y fácil acceso."
     },
     {
-      title: "Una Pared",
+      title: "Una pared",
       description: "Cerramiento posterior que protege del viento y lluvia. Ideal para acopio o talleres."
     },
     {
-      title: "Tres Paredes",
+      title: "Tres paredes",
       description: "Diseño semicerrado con portones. Mayor seguridad y control del entorno."
     },
     {
-      title: "Cuatro Paredes",
+      title: "Cuatro paredes",
       description: "Cerrado, con dos puertas para almacenamiento protegido."
     }
   ],
   successCase: {
     location: "Catamarca, Argentina",
-    title: "Caso de éxito: Galpón Solar Industrial",
+    title: "Caso de éxito: galpón solar industrial",
     description: "Un galpón solar industrial de 20x40m con estructura reforzada y sistema fotovoltaico completo. Este proyecto garantiza autonomía energética.",
     highlight: "65% de ahorro comprobado en costos eléctricos.",
     imageUrl: "https://sc04.alicdn.com/kf/H9429599a407f42b79a61ce932a3e2fe6O.jpg"
@@ -177,27 +195,27 @@ export const WAREHOUSE_CONTENT = {
 export const GALLERY_IMAGES = [
   {
     url: "https://s.alicdn.com/@sc04/kf/Hc0fc9f8bbc70407291df62460dafb375P.jpg?avif=close&webp=close",
-    title: "Arquitectura Modular Premium",
+    title: "Arquitectura modular premium",
     subtitle: "Diseños que se integran con el entorno"
   },
   {
     url: "https://gestionsindical.com/wp-content/uploads/2025/02/2-1.png",
-    title: "Interiores Funcionales",
+    title: "Interiores funcionales",
     subtitle: "Espacios luminosos y confortables"
   },
   {
     url: "https://www.xazent.com/upload/product/1687943137878807.jpg",
-    title: "Infraestructura Industrial",
+    title: "Infraestructura industrial",
     subtitle: "Soluciones de gran escala y alta resistencia"
   },
   {
     url: "https://holihaus.com/assets/images/showroom4.jpg",
-    title: "Complejos Turísticos",
+    title: "Complejos turísticos",
     subtitle: "Experiencias únicas tipo Glamping"
   },
    {
     url: "https://www.parati.com.ar/wp-content/uploads/2025/10/03CASAS-CAPSULA-749x561.jpg.webp",
-    title: "Complejos Turísticos",
+    title: "Complejos turísticos",
     subtitle: "Experiencias únicas tipo Glamping full"
   },
   {

@@ -31,7 +31,7 @@ export const ImageGallery: React.FC = () => {
             Galería
           </span>
           <h2 className="text-4xl md:text-5xl font-serif text-white">
-            Nuestros Proyectos
+            Nuestros proyectos
           </h2>
         </div>
 

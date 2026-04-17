@@ -30,7 +30,7 @@ export const AIAdvisor: React.FC = () => {
             <Sparkles size={14} className="text-brand-gold" />
             <span className="text-xs font-sans tracking-widest uppercase">Powered by Google Gemini</span>
           </div>
-          <h2 className="text-4xl md:text-5xl font-serif mb-6">Asistente Inteligente FADMYL</h2>
+          <h2 className="text-4xl md:text-5xl font-serif mb-6">Asistente inteligente FADMYL</h2>
           <p className="text-gray-400 text-lg">
             ¿No estás seguro de qué modelo elegir? Cuéntanos tu proyecto (ej: "Quiero armar un complejo de glamping en la montaña") y nuestra IA te recomendará la mejor opción.
           </p>
