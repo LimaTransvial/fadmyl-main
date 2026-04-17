@@ -8,9 +8,9 @@ interface LogoProps {
 export const Logo: React.FC<LogoProps> = ({ className = "h-16 w-auto" }) => {
   return (
     <div className={`${className} flex items-center`}>
-      <img 
-        src="https://i.postimg.cc/6pqG5CwT/Whats-App-Image-2025-12-15-at-09-27-48.jpg" 
-        alt="FADMYL" 
+      <img
+        src="/logo-fadmyl.svg"
+        alt="FADMYL - Import and Export"
         className="h-full w-auto object-contain"
       />
     </div>

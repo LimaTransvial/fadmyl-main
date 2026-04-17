@@ -12,7 +12,7 @@ export const Catalog: React.FC = () => {
             Nuestro Portafolio
           </span>
           <h2 className="text-4xl md:text-5xl font-serif text-brand-dark">
-            Modelos Disponibles
+            Modelos disponibles
           </h2>
         </div>
 

@@ -17,11 +17,11 @@ export const Hero: React.FC = () => {
 
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <p className="text-brand-gold font-sans font-bold tracking-[0.2em] text-sm md:text-base mb-4 uppercase animate-fade-in-up">
-          Catamarca • Argentina
+          Argentina
         </p>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif text-white mb-8 leading-tight animate-fade-in-up delay-100">
-          El Futuro de la <br />
-          <span className="italic">Construcción Modular</span>
+          El futuro de la <br />
+          <span className="italic">construcción modular</span>
         </h1>
         <p className="text-gray-200 text-lg md:text-xl font-light mb-10 max-w-2xl mx-auto animate-fade-in-up delay-200">
           Soluciones sustentables, diseño premium y montaje rápido para industria y turismo.

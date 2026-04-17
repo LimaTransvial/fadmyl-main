@@ -49,7 +49,7 @@ export const IndustrialWarehouses: React.FC = () => {
           <div className="relative z-10">
             <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-12 gap-6">
                 <div>
-                    <h3 className="text-3xl md:text-4xl font-serif mb-4">Alternativas Energéticas</h3>
+                    <h3 className="text-3xl md:text-4xl font-serif mb-4">Alternativas energéticas</h3>
                     <p className="text-gray-400 max-w-xl">
                     Optimizá tu inversión con soluciones que reducen costos operativos y bajan el impacto ambiental.
                     </p>
@@ -79,7 +79,7 @@ export const IndustrialWarehouses: React.FC = () => {
             
             {/* Wall Types List */}
             <div>
-                <h3 className="text-3xl font-serif text-brand-dark mb-8">Tipos de Cerramiento</h3>
+                <h3 className="text-3xl font-serif text-brand-dark mb-8">Tipos de cerramiento</h3>
                 <div className="space-y-6">
                     {WAREHOUSE_CONTENT.wallTypes.map((type, idx) => (
                         <div key={idx} className="flex gap-4">

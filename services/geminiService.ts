@@ -4,10 +4,11 @@ import { MODELS } from '../constants';
 // Initialize the Gemini API client
 // Note: In a real production app, ensure NEXT_PUBLIC_GEMINI_API_KEY is set in environment variables
 // For this demo, we assume process.env.API_KEY is available.
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || '' });
+const apiKey = import.meta.env.VITE_API_KEY || '';
+const ai = new GoogleGenAI({ apiKey });
 
 export const getRecommendation = async (userQuery: string): Promise<string> => {
-  if (!process.env.API_KEY) {
+  if (!apiKey) {
     return "Para utilizar el asistente de IA, por favor configure la clave API.";
   }
 
